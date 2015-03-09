@@ -94,7 +94,7 @@ color: #232022;
 .whereimfrom,
 .moreaboutme,
 .projects,
-.contact-info {
+.contact-info, .summary {
 max-width: 38em;
 margin-left: auto;
 margin-right: auto;

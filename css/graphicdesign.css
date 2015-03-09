@@ -142,9 +142,12 @@ text-align: center;
 width: 50%;
 margin: 0 auto;
 }
-.NYTimes,
-.karma-clone {
+.NYTimes {
 width: 100%;
+margin-bottom: 20px;
+}
+.karma-clone {
+width: 85%;
 margin-bottom: 20px;
 }
 .copyright {

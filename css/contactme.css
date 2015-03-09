@@ -1,0 +1,169 @@
+/*Contact Me CSS*/
+.footer {
+text-align: center;
+}
+body {
+background-color: #FAFAFA;
+}
+p,
+.descriptions, .contact-info {
+font-family: 'oswald', serif;
+letter-spacing: 0.05em;
+font-size: 18px;
+list-style-type: none;
+float: center;
+margin-left: auto;
+margin-right: auto;
+}
+.navigation {
+font-size: 16px;
+text-shadow: 2px 2px 8px #CF0053;
+position: fixed;
+background-color:#FAFAFA;
+width: 100%;
+-webkit-font-smoothing: antialiased;
+height: 60px;
+margin-top: -32.5px;
+border-bottom: 3px solid #FFB3FF;
+}
+.navigation li {
+color: black;
+font-family: 'Oswald';
+font-size: 16px;
+display: inline;
+width: 100%;
+float: center;
+padding: 0px 10px;
+}
+.navigation a:link {
+color: black;
+text-decoration: none;
+}
+.navigation a:hover {
+color: white;
+text-decoration: none;
+}
+.navigation a:visited {
+color: black;
+text-decoration: none;
+}
+.contact-info {
+max-width: 38em;
+margin-left: 40%;
+margin-right: auto;
+margin-top: 1em;
+letter-spacing: 0.05em;
+}
+.contact-title,
+.web-projects-title {
+  margin-left: 30%;
+}
+h2, h1 {
+color: #0099FF;
+font-family: 'Lobster Two', cursive;
+}
+.footer {
+border-radius: 5px 5px 15px 20px;
+box-shadow: 6px 6px 2px #C8C8C8;
+background-size: 900px;
+background-position: cover;
+background-repeat: no-repeat;
+background-color: #232022;
+color: white;
+padding: 18px 0;
+letter-spacing: 0.0em;
+margin-top: 100px;
+}
+.linkme {
+font-size: 30px;
+font-family: 'Lobster Two', cursive;
+}
+.sociallinks {
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+}
+.sociallinks ul {
+padding:0px;
+}
+.sociallinks li {
+list-style-type: none;
+display: inline-block;
+}
+.footer .sociallinks a:link {
+color: #FFB3FF;
+text-decoration: none;
+}
+.footer .sociallinks a:hover {
+color: white;
+text-decoration: none;
+}
+.footer .sociallinks a:visited {
+color: #FF9900;
+text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+    .mastheader {
+      padding: 2em 0;
+    }
+    .masthead-heading {
+      font-size: 2em;
+    }
+    .footer {
+      padding: 1em 0;
+    }
+    .sociallinks, p, .linkme, .cover{
+      font-size: .8em;
+    }
+    .moreaboutme,
+    .projects, .job-title,
+    .bit-about-me,
+    .info, .web-header {
+      font-size: 1em;
+      padding: 1em 5px;
+    }
+    .contact-info {
+      font-size: 1em;
+      padding: 1em 20px 1em -10px;
+    }
+    .navigation {
+      padding: 15px 5px;
+      font-size: .01em;
+    }
+    .mesa,
+    .love,
+    .neverfails,
+    .third-place,
+    .lovecoding {
+      font-size: 1.5em;
+      padding: 1em 5px;
+    }
+  }
+}
+#home {
+  font-size:18px ;
+  text-shadow: 2px 2px 8px #CF0053;
+  font-color: #232022;
+  margin-top: -5px;
+}
+.navigation .home-icon {
+  width: 29px;
+  margin-top: 2px;
+}
+.amy-tom {
+  margin-top: 0.2em;
+  margin-bottom: 50px;
+  font-size: 80px;
+  font-family: 'Lobster Two', cursive;
+  color: #720000;
+  text-shadow: 3px 4px 3px #666666;
+  -webkit-font-smoothing: antialiased;
+}
+.content {
+  margin-bottom: 300px;
+}
+.nothing {
+  color: #FAFAFA;
+}
+.copyright {
+  font-size: 10px;
+}

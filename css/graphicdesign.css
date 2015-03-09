@@ -155,6 +155,7 @@ width: 150%;
 margin-bottom: 20px;
 margin-left: auto;
 margin-right: auto;
+display: block;
 }
 .copyright {
   font-size: 10px;

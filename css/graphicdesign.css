@@ -16,7 +16,7 @@ margin-left: auto;
 margin-right: auto;
 }
 .navigation {
-font-size: 16px;
+font-size: 18px;
 text-shadow: 2px 2px 8px #CF0053;
 position: fixed;
 background-color:#FAFAFA;
@@ -29,7 +29,7 @@ border-bottom: 3px solid #FFB3FF;
 .navigation li {
 color: black;
 font-family: 'Oswald';
-font-size: 16px;
+font-size: 18px;
 display: inline;
 width: 100%;
 float: center;
@@ -165,4 +165,23 @@ margin-bottom: 20px;
 }
 .nothing {
   color: #FAFAFA;
+
+.slider {
+  width: 400px; height: 300px;
+  overflow: hidden;
 }
+  .slider > ul {
+    /* styled by JS to match the added width and height of all <li>’s */
+    position: relative;
+    -webkit-transition: 0.5s left;
+    -moz-transition: 0.5s left;
+    -ms-transition: 0.5s left;
+    -o-transition: 0.5s left;
+ 
+    list-style: none;
+    margin: 0; padding: 0;
+  }
+    .slider > ul > li {
+      float: left;
+      width: 400px; height: 300px;
+    }

@@ -16,7 +16,7 @@ margin-left: auto;
 margin-right: auto;
 }
 .navigation {
-font-size: 16px;
+font-size: 18px;
 text-shadow: 2px 2px 8px #CF0053;
 position: fixed;
 background-color:#FAFAFA;
@@ -29,7 +29,7 @@ border-bottom: 3px solid #FFB3FF;
 .navigation li {
 color: black;
 font-family: 'Oswald';
-font-size: 16px;
+font-size: 18px;
 display: inline;
 width: 100%;
 float: center;

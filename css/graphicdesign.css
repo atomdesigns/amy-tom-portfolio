@@ -147,8 +147,9 @@ width: 100%;
 margin-bottom: 20px;
 }
 .karma-clone {
-width: 85%;
+width: 80%;
 margin-bottom: 20px;
+position: relative;
 }
 .copyright {
   font-size: 10px;

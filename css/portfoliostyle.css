@@ -101,6 +101,13 @@ margin-right: auto;
 margin-top: 1em;
 letter-spacing: 0.05em;
 }
+.summary {
+  max-width: 38em;
+margin-left: auto;
+margin-right: auto;
+margin-top: 1em;
+letter-spacing: 0.05em;
+}
 .contact-info {
 max-width: 38em;
 margin-left: 40%;

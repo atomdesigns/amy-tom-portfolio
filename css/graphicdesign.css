@@ -162,7 +162,10 @@ margin-right: 200px;
 display: block;
 }
 .ads-banners {
-  width: 40%;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: 200px;
 }
 .copyright {
   font-size: 10px;

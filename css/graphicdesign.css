@@ -161,6 +161,9 @@ margin-left: auto;
 margin-right: 200px;
 display: block;
 }
+.ads-banners {
+  width: 50%;
+}
 .copyright {
   font-size: 10px;
 }

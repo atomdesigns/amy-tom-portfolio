@@ -47,7 +47,7 @@ text-decoration: none;
 color: black;
 text-decoration: none;
 }
-.contact-info {
+.contact-info{
 max-width: 38em;
 margin-left: 40%;
 margin-right: auto;
@@ -57,6 +57,9 @@ letter-spacing: 0.05em;
 .contact-title,
 .web-projects-title {
   margin-left: 30%;
+}
+#atomdesigns-gmail {
+  color: #CFCFCF;
 }
 h2, h1 {
 color: #0099FF;
@@ -121,7 +124,7 @@ text-decoration: none;
       font-size: 1em;
       padding: 1em 5px;
     }
-    .contact-info {
+    .contact-info, #atomdesigns-gmail {
       font-size: 1em;
       padding: 1em 20px 1em -10px;
     }

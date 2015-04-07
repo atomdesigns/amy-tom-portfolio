@@ -50,11 +50,11 @@ text-decoration: none;
 .projects,
 .contact-info {
 max-width: 38em;
-margin-left: 100px;
-margin-right: 200px;
+margin-left: auto;
+margin-right: auto;
 margin-top: 1em;
 letter-spacing: 0.05em;
-padding-right: 250px;
+padding-right: 550px;
 }
 .web-projects-title {
   margin-left: 30%;
@@ -125,6 +125,9 @@ text-decoration: none;
     .navigation {
       padding: 15px 5px;
       font-size: .01em;
+    }
+    .projects {
+      margin: 0 auto;
     }
     .mesa,
     .love,

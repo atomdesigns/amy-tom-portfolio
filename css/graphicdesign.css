@@ -50,7 +50,7 @@ text-decoration: none;
 .projects,
 .contact-info {
 max-width: 38em;
-margin-left: 200px;
+margin-left: 100px;
 margin-right: auto;
 margin-top: 1em;
 letter-spacing: 0.05em;
@@ -127,7 +127,8 @@ text-decoration: none;
       font-size: .01em;
     }
     .projects {
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
     }
     .mesa,
     .love,
@@ -151,7 +152,7 @@ width: 130%;
 margin-bottom: 20px;
 }
 .karma-clone {
-width: 100%;
+width: 90%;
 margin-bottom: 20px;
 }
 .popup {

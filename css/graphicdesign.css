@@ -150,14 +150,20 @@ margin: 0 auto;
 .NYTimes {
 width: 130%;
 margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 .karma-clone {
 width: 80%;
 margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 .popup {
 width: 100%;
 margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
 }
 .ipzmall-main-banners {
 width: 250%;
@@ -170,13 +176,13 @@ display: block;
   width: 30%;
   margin-bottom: 20px;
   margin-left: auto;
-  margin-right: 200px;
+  margin-right: auto;
 }
 .half-ads {
   width: 50%;
   margin-bottom: 20px;
   margin-left: auto;
-  margin-right: 200px;
+  margin-right: auto;
 }
 .copyright {
   font-size: 10px;

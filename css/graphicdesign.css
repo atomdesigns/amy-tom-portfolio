@@ -181,8 +181,8 @@ display: block;
 .half-ads {
   width: 50%;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 .copyright {
   font-size: 10px;

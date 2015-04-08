@@ -156,14 +156,14 @@ margin-right: auto;
 .karma-clone {
 width: 80%;
 margin-bottom: 20px;
-margin-left: auto;
-margin-right: auto;
+margin-left: 500px;
+margin-right: 500px;
 }
 .popup {
 width: 100%;
 margin-bottom: 20px;
-margin-left: auto;
-margin-right: auto;
+margin-left: 500px;
+margin-right: 500px;
 }
 .ipzmall-main-banners {
 width: 250%;
@@ -175,14 +175,14 @@ display: block;
 .ads-banners {
   width: 30%;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 .half-ads {
   width: 50%;
   margin-bottom: 20px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 .copyright {
   font-size: 10px;

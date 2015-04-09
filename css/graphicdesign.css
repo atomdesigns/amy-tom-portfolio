@@ -24,6 +24,7 @@ width: 100%;
 -webkit-font-smoothing: antialiased;
 height: 60px;
 margin-top: -32.5px;
+display: inline-block;
 border-bottom: 3px solid #FFB3FF;
 }
 .navigation li {

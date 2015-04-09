@@ -103,7 +103,7 @@ text-decoration: none;
 color: #FF9900;
 text-decoration: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .mastheader {
       padding: 2em 0;
     }

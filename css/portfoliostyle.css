@@ -4,9 +4,6 @@
 .footer {
 text-align: center;
 }
-body {
-background-color: #FAFAFA;
-}
 p,
 .descriptions, .contact-info {
 font-family: 'oswald', serif;
@@ -18,16 +15,19 @@ margin-left: auto;
 margin-right: auto;
 }
 .mastheader {
+border-radius: 0px;
 padding: 10em 0;
 background-size: 95em;
 width: 100%;
 margin: 1em 0;
 background-repeat: no-repeat;
 background-size: cover;
-height: 250px;
-border-top: solid .75em #FFB3FF;
-box-shadow: 1px 1px 5px #C8C8C8;
-background-image: url(https://ununsplash.imgix.net/38/QoR8Bv1S2SEqH6UcSJCA_Tea.jpg?q=75&fm=jpg&s=a3cfe8f3f16e64f561affa107e3e668b)
+height: 460px;
+border-top: solid .75em #FFFF;
+box-shadow: 0px 0px 0px #ffffff;
+background-image: url("/images/heart_book_pages_pink2.jpg");
+background-position: center bottom;
+background-attachment: fixed;
 }
 .masthead-intro{
 margin-bottom: 0.1em;
@@ -35,32 +35,51 @@ font-family: 'Poller One', cursive;
 font-size: 22px;
 color: #ffffff;
 }
-.job-title {
+#job-title {
 margin-bottom: 0.1em;
-font-family: 'Lobster Two', cursive;
-color: #EFEFEF;
+font-family: 'oswald', sans-serif;
+color: #000000;
 text-align: center;
 font-size: 40px;
-margin-top: -35px;
-text-shadow: 2px 4px 5px #A32182;
+margin-top: -110px;
+text-shadow: 2px 4px 5px #ffffff;
+text-decoration: none;
+}
+#job-title li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+#job-title a:link {
+color: black;
+text-decoration: none;
+}
+#job-title a:hover {
+color: #ffccff;
+text-decoration: none;
+}
+#job-title a:visited {
+color: black;
+text-decoration: none;
 }
 .masthead-heading {
 margin-top: -0.2em;
-font-size: 150px;
+font-size: 200px;
 font-family: 'Lobster Two', cursive;
-color: #720000;
-text-shadow: 3px 4px 3px #FFF;
+color: #AD2424;
 }
 .navigation {
 font-size: 18px;
-text-shadow: 2px 2px 8px #CF0053;
 position: fixed;
+text-shadow: 2px 2px 8px #CF0053;
 background-color:#FAFAFA;
 width: 100%;
 -webkit-font-smoothing: antialiased;
 height: 60px;
 margin-top: -29px;
 border-bottom: 3px solid #FFB3FF;
+opacity:0.95;
+  filter:alpha(opacity=50); /* For IE8 and earlier */
 }
 .navigation li {
 color: black;
@@ -85,7 +104,7 @@ text-decoration: none;
 }
 .about-me {
 text-align: left;
-font-family: 'Lobster Two', cursive;
+font-family: 'oswald', sans-serif;
 font-size: 21px;
 color: #232022;
 }
@@ -93,15 +112,8 @@ color: #232022;
 .whereimfrom,
 .moreaboutme,
 .projects,
-.summary {
+.contact-info, .summary {
 max-width: 38em;
-margin-left: auto;
-margin-right: auto;
-margin-top: 1em;
-letter-spacing: 0.05em;
-}
-.summary {
-  max-width: 38em;
 margin-left: auto;
 margin-right: auto;
 margin-top: 1em;
@@ -120,8 +132,8 @@ letter-spacing: 0.05em;
 }
 h2, h1 {
   padding-top: 45px;
-color: #0099FF;
-font-family: 'Lobster Two', cursive;
+color: #740639;
+font-family: 'oswald', sans-serif;
 }
 .bit-about-me {
 text-align: left;
@@ -129,11 +141,11 @@ font-size: 36px;
 font-color: #0052CC;
 }
 .third-place {
-color: #E65CB8;
+color: #C03B73;
 font-size: 25px;
 }
 .mesa {
-font-family: 'ariel';
+font-family: 'oswald', sans-serif;
 font-size: 23px;
 }
 .lovecoding {
@@ -159,6 +171,7 @@ font-family: 'Lobster Two', cursive;
 .sociallinks {
 font-family: 'Oswald', sans-serif;
 font-size: 20px;
+color: white;
 }
 .sociallinks ul {
 padding:0px;
@@ -178,11 +191,11 @@ font-size: 30px;
 padding-bottom: 3em;
 }
 .footer .sociallinks a:link {
-color: #FFB3FF;
+color: #FFF;
 text-decoration: none;
 }
 .footer .sociallinks a:hover {
-color: white;
+color: #FFB3FF;
 text-decoration: none;
 }
 .footer .sociallinks a:visited {
@@ -199,7 +212,7 @@ text-decoration: none;
     .footer {
       padding: 1em 0;
     }
-    .sociallinks, p, .linkme, .cover{
+    .sociallinks, p, .linkme, .job-title, .cover{
       font-size: .8em;
     }
     .moreaboutme,
@@ -262,4 +275,8 @@ margin-bottom: 20px;
 }
 .nothing {
   color: white;
+}
+.sociallinks i {
+  color: white;
+  padding-right: 5px;
 }

@@ -7,60 +7,99 @@
 	<link href='//fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <script>
-  var sliders = []
-  $('.slider').each(function() {
-    sliders.push(new Slider(this))
-  })
-</script>
+  <link rel="stylesheet" href="css/font-awesome.css">
+
 	<title>Amy Tom &#124; Illustrations</title>
 </head>
 <body>
   <div class="navigation">
       <ul class="links">
         <li id="home"><a href="index.html"><img src="images/homeicon.png" alt="Home" class="home-icon" /></a></li>
-        <li><a href="webdesignpage.html">Web Projects</a></li>
-        <li><a href="graphicdesign.html">Graphic Design</a></li>
+        <li><a href="webdesignpage.html">UX UI Design</a></li>
+        <li><a href="graphicdesign.html">Visual Design</a></li>
         <li><a href="illustrations.html">Illustrations</a></li>
         <li><a href="contactme.html">Contact Me</a></li>
       </ul>
     </div>
     <section class="web-header">
-    	<div class="title-header">
-    		<h1 class="nothing">Illustrations</h1>
-    		<h1 class="web-projects-title">Some of my Illustration Work</h1>
-    		<div class="projects">
-          <img src="images/cat-dog-colored-pencils.jpg" alt="Karma Clone Project" class="NYTImes"></a>
-            <div class="descriptions"><h5>Best Friends, colored pencils</h5></div>
-    			<img src="images/dino-charcoal.jpg" alt="Hacking NY Times Project" class="NYTimes"></a>
-            <div class="descriptions"><h5>Dino Fossil, charcoal</h5></div>
-          <img src="images/heart-bacteria.jpg" alt="icydeals" class="heart-bacteria"></a>
-            <div class="descriptions"><h5>The Heart and Bacteria, graphite pencils and acrylic paints</h5></div>
-          <img src="images/jar-nut-apple.jpg" alt="icydeals" class="NYTImes"></a>
-            <div class="descriptions"><h5>Still Life, Graphite pencils</h5></div>
-          <img src="images/pair-eggs-charcoal.jpg" alt="icydeals" class="NYTImes"></a>
-            <div class="descriptions"><h5>Fallen, Charcoal</h5></div>
-          <img src="images/puppy-graphitejpg.jpg" alt="icydeals" class="NYTImes"></a>
-            <div class="descriptions"><h5>Lonely Puppy, Graphite pencils</h5></div>
-          <img src="images/purple-sky.jpg" alt="icydeals" class="NYTImes"></a>
-            <div class="descriptions"><h5>Purple Sky, with Collage and Acrylic Paint</h5></div>
-          <img src="images/red-white-charcoal-jar.jpg" alt="icydeals" class="NYTImes"></a>
-            <div class="descriptions"><h5>Jars, Charcoal</h5></div>
-          <img src="images/teddy-bear-1.jpg" alt="icydeals" class="NYTImes"></a>
-            <div class="descriptions"><h5>Teddy Bear from an illustrated storybook I made, Marker Rendering</h5></div>
-    		</div>
-    	</div>
+    	<div class="hero">
+        <h1 style="background-color:#F6B822; font-family:roboto;"><strong>Illustrations</strong></h1>
+      </div>
+
+          <div class="images">
+            <img src="images/cat-dog-colored-pencils.jpg"/><figcaption><div><a class="lightbox" href="#goofy">Cat and Dog - Best Friends - with Colored Pencils, 2011.</a></div></figcaption></div>
+          <div class="lightbox-target" id="goofy">
+            <img src="images/cat-dog-colored-pencils.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+          <div class="images">
+            <img src="images/dino-charcoal.jpg"/><figcaption><div><a class="lightbox" href="#dino fossil">Dino Fossils - with Charcoals, Summer of '09.</a></div></figcaption></div>
+          <div class="lightbox-target" id="dino fossil">
+            <img src="images/dino-charcoal.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+          <div class="images">
+            <img src="images/heart-bacteria.jpg"/><figcaption><div><a class="lightbox" href="#heart-bacteria">Heartly - with Graphite Pencils and Acrylics, Fall of '09.</a></div></figcaption></div>
+          <div class="lightbox-target" id="heart-bacteria">
+            <img src="images/heart-bacteria.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+          <div class="images"><a class="lightbox" href="#jar-nutapple">
+            <img src="images/jar-nut-apple.jpg"/><figcaption><div><a class="lightbox" href="#jar-nutapple">Life Drawing - with Graphite Pencils, Fall of '08.</a></div></figcaption></div>
+          <div class="lightbox-target" id="jar-nutapple">
+            <img src="images/jar-nut-apple.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>  
+
+          <div class="images"><a class="lightbox" href="#nesting-eggs">
+            <img src="images/pair-eggs-charcoal.jpg"/><figcaption><div><a class="lightbox" href="#nesting-eggs">Life Drawing of Unhatched Eggs - with Charocoals, Fall of '08.</a></div></figcaption></div>
+          <div class="lightbox-target" id="nesting-eggs">
+            <img src="images/pair-eggs-charcoal.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+          <div class="images">
+            <img src="images/puppy-graphitejpg.jpg"/><figcaption><div><a class="lightbox" href="#loneliness">The Loneliest Puppy - with Graphite Pencils, Summer of '08.</a></div></figcaption></div>
+          <div class="lightbox-target" id="loneliness">
+            <img src="images/puppy-graphitejpg.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+          <div class="images">
+            <img src="images/purple-sky.jpg"/><figcaption><div><a class="lightbox" href="#purplesky">It's a Purple Sky - with Acrylics and Collage, Summer of '12.</a></div></figcaption></div>
+          <div class="lightbox-target" id="purplesky">
+            <img src="images/purple-sky.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+          <div class="images">
+            <img src="images/red-white-charcoal-jar.jpg"/><figcaption><div><a class="lightbox" href="#spicy-and-hot">Redness - with Red and White Charcoals, Summer of '12.</a></div></figcaption></div>
+          <div class="lightbox-target" id="spicy-and-hot">
+            <img src="images/red-white-charcoal-jar.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+          <div class="images">
+            <img src="images/teddy-bear-1.jpg"/><figcaption><div><a class="lightbox" href="#teddybear">Part of an Children's Illustration Book I created - with Markers, Winter of 2000.</a></div></figcaption></div>
+          <div class="lightbox-target" id="teddybear">
+            <img src="images/teddy-bear-1.jpg"/>
+            <a class="lightbox-close" href="#"></a>
+          </div></div>
+
+         
     </section>
     <footer class="footer">
     <p class="linkme">Let's Get Connected</p>
     <div class="sociallinks">
       <ul>
-        <li><a href="https://www.facebook.com/amytom87">Facebook</a></li>
-        <li><a href="https://www.linkedin.com/in/amytom">LinkedIn</a></li>
-        <li><a href="https://twitter.com/amywebdesigns">Twitter</a></li>
-        <li><a href="http://instagram.com/lilmswtheart/">Instagram</a></li>
+        <li><a href="http://www.facebook.com/amytom87"><i class='fa fa-facebook-square'></i></a></li>
+        <li><a href="https://www.linkedin.com/in/amytom"><i class='fa fa-linkedin'></i></a></li>
+        <li><a href="https://twitter.com/amywebdesigns"><i class='fa fa-twitter'></i></a></li>
+        <li><a href="http://instagram.com/lilmswtheart/"><i class='fa fa-instagram'></i></a></li>
       </ul>
-      <p class="cover">Cover Image via <a href="http://unsplash.com">Unsplash</a></p>
       <p class="copyright">&#64;2015 Amy Tom Design</p>
     </div>
   </footer>

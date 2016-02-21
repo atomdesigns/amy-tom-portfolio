@@ -457,6 +457,7 @@ figcaption a:visited {
           transform: scale3d(1.2, 1.2, 1);
 }
 figcaption a:link, a:active {
+  font-family: 'lato', sans-serif;
   color: white;
   text-decoration: none;
   -webkit-transform: scale3d(1.2, 1.2, 1);

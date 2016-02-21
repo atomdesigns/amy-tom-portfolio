@@ -25,7 +25,7 @@ background-size: cover;
 height: 460px;
 border-top: solid .75em #FFFF;
 box-shadow: 0px 0px 0px #ffffff;
-background-image: url("https://cloud.githubusercontent.com/assets/11380566/13206211/4adfc3e4-d8c7-11e5-8d15-4d27d526fea4.jpg");
+background-image: url ("img/heart_book_pages_pink2.jpg");
 background-position: center bottom;
 background-attachment: fixed;
 }

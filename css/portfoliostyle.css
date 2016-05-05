@@ -18,14 +18,14 @@ margin-right: auto;
 border-radius: 0px;
 padding: 10em 0;
 background-size: 95em;
-width: 100%;
+width: 100.5%;
 margin: 1em 0;
 background-repeat: no-repeat;
 background-size: cover;
 height: 460px;
 border-top: solid .75em #FFFF;
 box-shadow: 0px 0px 0px #ffffff;
-background-image: url("https://cloud.githubusercontent.com/assets/11380566/13206211/4adfc3e4-d8c7-11e5-8d15-4d27d526fea4.jpg");
+background-image: url("https://cloud.githubusercontent.com/assets/11380566/15007962/b4ed5fb4-11aa-11e6-95ea-14534d24ff44.jpg");
 background-position: center bottom;
 background-attachment: fixed;
 }
@@ -66,23 +66,23 @@ text-decoration: none;
 margin-top: -0.2em;
 font-size: 200px;
 font-family: 'Lobster Two', cursive;
-color: #AD2424;
+color: #B50117;
 }
 .navigation {
 font-size: 18px;
 position: fixed;
-text-shadow: 2px 2px 8px #CF0053;
-background-color:#FAFAFA;
+background-color:#232022;
 width: 100%;
 -webkit-font-smoothing: antialiased;
-height: 60px;
+height: 70px;
 margin-top: -29px;
-border-bottom: 3px solid #FFB3FF;
+margin-left: -8px;
+box-shadow: -10px 5px 10px 0px #4E504A;
 opacity:0.95;
   filter:alpha(opacity=50); /* For IE8 and earlier */
 }
 .navigation li {
-color: black;
+color: white;
 font-family: 'Oswald';
 font-size: 18px;
 display: inline;
@@ -91,16 +91,22 @@ float: center;
 padding: 0px 10px;
 }
 .navigation a:link {
-color: black;
-text-decoration: none;
-}
-.navigation a:hover {
 color: white;
 text-decoration: none;
 }
-.navigation a:visited {
-color: black;
+.navigation a:hover {
+color: #C03B73;
 text-decoration: none;
+}
+.navigation a:visited {
+color: white;
+text-decoration: none;
+}
+ul.links {
+  margin-top: 30px;
+}
+#home {
+    font-size: 28px;
 }
 .about-me {
 text-align: left;
@@ -163,6 +169,8 @@ color: white;
 padding: 18px 0;
 letter-spacing: 0.0em;
 margin-top: 100px;
+margin-left: -05px;
+width: 100%;
 }
 .linkme {
 font-size: 30px;
@@ -253,7 +261,6 @@ margin-bottom: 20px;
 }
 #home {
   font-size:18px ;
-  text-shadow: 2px 2px 8px #CF0053;
   font-color: #232022;
   margin-top: -5px;
 }

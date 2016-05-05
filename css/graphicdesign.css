@@ -17,21 +17,21 @@ margin-right: auto;
 }
 .navigation {
 font-size: 18px;
-text-shadow: 2px 2px 8px #CF0053;
+background-color:#232022;
 position: fixed;
-background-color:#FAFAFA;
 width: 100%;
 -webkit-font-smoothing: antialiased;
-height: 60px;
-margin-top: -48.5px;
+height: 70px;
+margin-top: -68px;
+margin-left: -8px;
 display: inline-block;
-border-bottom: 3px solid #FFB3FF;
+box-shadow: -10px 5px 10px 0px #4E504A;
 opacity:0.95;
   filter:alpha(opacity=50); /* For IE8 and earlier */
 z-index: 200;
 }
 .navigation li {
-color: black;
+color: white;
 font-family: 'Oswald';
 font-size: 18px;
 display: inline;
@@ -41,7 +41,7 @@ padding: 0px 10px;
 margin-top: 10px;
 }
 .navigation a:link {
-color: black;
+color: white;
 text-decoration: none;
 }
 .navigation a:hover {
@@ -49,8 +49,11 @@ color: white;
 text-decoration: none;
 }
 .navigation a:visited {
-color: black;
+color: white;
 text-decoration: none;
+}
+ul.links {
+  margin-top: 30px;
 }
 .projects,
 .contact-info {
@@ -200,7 +203,6 @@ display: block;
 }
 #home {
   font-size:18px ;
-  text-shadow: 2px 2px 8px #CF0053;
   font-color: #232022;
   margin-top: -5px;
 }
@@ -226,21 +228,21 @@ display: block;
 .hero{
   width: 100%;
   height: 100px;
-  background: #e075ae;
   display: table;
-  margin-top: 35px;
+  margin-top: 55px;
 }
 
 h1{
   text-align: center;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: #fff;
+  color: #e075ae;
   font-weight: 300;
   font-family: 'roboto', sans-serif;
+  font-size: 58px;
 }
 
 /**IMAGES**/
@@ -362,8 +364,8 @@ top: 0px;
 }
 
 .images {
-  width: 400px;
-  height: 250px;
+  width: 520px;
+  height: 360px;
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -371,7 +373,7 @@ top: 0px;
   border: 5px solid #fff;
   box-shadow: 0 0 5px #ddd;
   margin-top: 4em;
-  margin-left: 50px;
+  margin-left: 130px;
 }
 a.lightbox img:hover {
   height: 500px;
@@ -400,7 +402,7 @@ figcaption div{
   opacity: 0;
   color: #fff;
   text-transform: uppercase;
-  background-color: rgba(249, 154, 224, 0.74);
+  background-color: rgba(108, 122, 191, 0.74);
   z-index: -2;
 }
 
@@ -459,6 +461,7 @@ figcaption a:visited {
 figcaption a:link, a:active {
   font-family: 'lato', sans-serif;
   color: white;
+  font-size:x-large;
   text-decoration: none;
   -webkit-transform: scale3d(1.2, 1.2, 1);
           transform: scale3d(1.2, 1.2, 1);

@@ -50,7 +50,7 @@ text-decoration: none;
   display: inline-block;
 }
 #job-title a:link {
-color: white;
+color: black;
 text-decoration: none;
 }
 #job-title a:hover {
@@ -58,7 +58,7 @@ color: #EA69B4;
 text-decoration: none;
 }
 #job-title a:visited {
-color: white;
+color: black;
 text-decoration: none;
 }
 .masthead-heading {

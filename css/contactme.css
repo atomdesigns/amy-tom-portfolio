@@ -80,7 +80,7 @@ background-color: #232022;
 color: white;
 padding: 18px 0;
 letter-spacing: 0.0em;
-margin-top: -222px;
+margin-top: -202px;
 width: 101%;
 margin-left:-7.16px;
 }
@@ -186,6 +186,23 @@ text-decoration: none;
   font-size: 10px;
 }
 
+/**Drop me a Line**/
+.letstalk {
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  font-size:38px;
+  margin-top: -50px;
+  color: white;
+}
+.subtitle {
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  font-size: 24px;
+  margin: 0 auto;
+  color: #404040;
+  width: 55%;
+}
+
 /*Contact Form**/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -209,8 +226,8 @@ html{    background:url(https://cloud.githubusercontent.com/assets/11380566/1500
   background-color:rgba(72,72,72,0.4);
   padding-left:35px;
   padding-right:35px;
-  padding-top:35px;
-  padding-bottom:50px;
+  padding-top:10px;
+  padding-bottom:20px;
   width: 450px;
   float: left;
   left: 50%;

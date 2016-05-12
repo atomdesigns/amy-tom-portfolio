@@ -51,15 +51,15 @@ text-decoration: none;
   display: inline-block;
 }
 #job-title a:link {
-color: black;
+color: white;
 text-decoration: none;
 }
 #job-title a:hover {
-color: #fff;
+color: #EA69B4;
 text-decoration: none;
 }
 #job-title a:visited {
-color: black;
+color: white;
 text-decoration: none;
 }
 .masthead-heading {

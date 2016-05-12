@@ -40,7 +40,7 @@ margin-bottom: 0.1em;
 font-family: 'oswald', sans-serif;
 color: #000000;
 text-align: center;
-font-size: 60px;
+font-size: 55px;
 margin-top: -110px;
 text-decoration: none;
 }
@@ -63,9 +63,9 @@ text-decoration: none;
 }
 .masthead-heading {
 margin-top: -0.2em;
-font-size: 200px;
+font-size: 180px;
 font-family: 'Lobster Two', cursive;
-color: #EA69B4;
+color: #F940AB;
 }
 .navigation {
 font-size: 18px;

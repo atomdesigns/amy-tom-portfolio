@@ -25,7 +25,7 @@ background-size: cover;
 height: 400px;
 border-top: solid .75em #FFFF;
 box-shadow: 0px 0px 0px #ffffff;
-background-image: url("https://cloud.githubusercontent.com/assets/11380566/15233040/2488b7f0-185a-11e6-9e74-472528cd97fa.jpg");
+background-image: url("https://cloud.githubusercontent.com/assets/11380566/15298576/d1121aaa-1b54-11e6-89df-9d1bda5c0938.jpg");
 background-position: center bottom;
 background-attachment: fixed;
 }
@@ -50,22 +50,22 @@ text-decoration: none;
   display: inline-block;
 }
 #job-title a:link {
-color: black;
+color: ##F9AEDE;
 text-decoration: none;
 }
 #job-title a:hover {
-color: #EA69B4;
+color: #fff;
 text-decoration: none;
 }
 #job-title a:visited {
-color: black;
+color: ##F9AEDE;
 text-decoration: none;
 }
 .masthead-heading {
 margin-top: -0.2em;
 font-size: 180px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-color: #FF5DB9;
+color: #FFF;
 }
 .navigation {
 font-size: 18px;

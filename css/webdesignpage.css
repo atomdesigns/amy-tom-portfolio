@@ -555,3 +555,17 @@ figcaption a:link, a:active {
   font-weight: 700;
   src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
 }
+#home a:link {
+  color: red;
+}
+#home a:visited {
+  color: red;
+}
+#home a:hover{
+  color: #C03B73;
+}
+#home {
+  font-size:28px ;
+  font-color: #232022;
+  margin-top: -5px;
+}

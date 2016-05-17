@@ -102,10 +102,16 @@ color: white;
 text-decoration: none;
 }
 ul.links {
-  margin-top: 30px;
+  margin-top: 20px;
 }
-#home {
-    font-size: 28px;
+#home a:link {
+  color: red;
+}
+#home a:visited {
+  color: red;
+}
+#home a:hover{
+  color: #C03B73;
 }
 .about-me {
 text-align: left;
@@ -259,13 +265,9 @@ margin-bottom: 20px;
   font-size: 10px;
 }
 #home {
-  font-size:18px ;
+  font-size:28px ;
   font-color: #232022;
   margin-top: -5px;
-}
-.navigation .home-icon {
-  width: 29px;
-  margin-top: 2px;
 }
 .amy-tom {
   margin-top: 0.2em;

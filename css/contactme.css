@@ -373,5 +373,19 @@ input:focus, textarea:focus {
   }
 }
 
+#home a:link {
+  color: red;
+}
+#home a:visited {
+  color: red;
+}
+#home a:hover{
+  color: #C03B73;
+}
+#home {
+  font-size:28px ;
+  font-color: #232022;
+  margin-top: -5px;
+}
 
 

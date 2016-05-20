@@ -556,10 +556,10 @@ figcaption a:link, a:active {
   src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
 }
 #home a:link {
-  color: red;
+  color: #ff80bf;
 }
 #home a:visited {
-  color: red;
+  color: #ff80bf;
 }
 #home a:hover{
   color: #C03B73;

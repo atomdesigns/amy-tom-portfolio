@@ -374,10 +374,10 @@ input:focus, textarea:focus {
 }
 
 #home a:link {
-  color: red;
+  color: #ff80bf;
 }
 #home a:visited {
-  color: red;
+  color: #ff80bf;
 }
 #home a:hover{
   color: #C03B73;

@@ -714,8 +714,7 @@ h5.blocbox-link {
 }
 .wireframes p,
 .mockups p{
-	font-family: 'roboto condensed', sans-serif;
-  font-size:;}
+	font-family: 'roboto condensed';}
 .wireframes .bx_left{
 	width:32%;
 	margin: 80px 0 0;}
@@ -729,8 +728,6 @@ h5.blocbox-link {
   padding: 0px;
   display: block;
   margin: 0px;
-  padding: 40px 0 0 10px;
-  height: 200px;
 }
 .wireframes .bx_right{
 	width:55%;

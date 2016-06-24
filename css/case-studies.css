@@ -610,7 +610,7 @@ figcaption a:link, a:active {
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
-  margin-left: 10.5em;
+  margin-left: 38%;
   padding: 10px 40px;
   font-weight: 700;
   box-shadow: 1px 1px 20px 5px #1a1a1a;
@@ -630,7 +630,7 @@ figcaption a:link, a:active {
 }
 h5.blocbox-link {
   color: whitesmoke;
-  text-align: center;
+  margin-left: 45%;
 }
 .hero-img {
   width:85%;

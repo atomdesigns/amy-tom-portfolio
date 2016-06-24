@@ -609,7 +609,7 @@ figcaption a:link, a:active {
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
-  margin-left: 12.5em;
+  margin-left: 12em;
   padding: 10px 40px;
   font-weight: 700;
   box-shadow: 1px 1px 20px 5px #1a1a1a;
@@ -636,6 +636,16 @@ h5.blocbox-link {
   margin-left: 15em;
   height: 450px;
 }
+.thumb_button{
+  position: relative;
+  top: -35px;
+}
+.thumb_button btn a{
+  cursor: pointer;
+  z-index: 10;
+  display: block;
+  position: relative;
+}
 
 /**SUMMARY PORTION**/
 .wireframes{
@@ -660,6 +670,17 @@ h5.blocbox-link {
 #slider2 .flex-direction-nav,
 #slider3 .flex-direction-nav{
 	display:none !important;}
+#slider1{
+  margin: 55px 0px 30px 0px;
+}
+#slider1.flexslider{
+  top: 0px;
+}
+#slider1:after{
+  content: '';
+  display: block;
+  clear: both;
+}
 #carousel3 .slides li{
 	min-height:300px;}
 #carousel3 .slides li img{
@@ -697,14 +718,40 @@ h5.blocbox-link {
 .wireframes .bx_left{
 	width:32%;
 	margin: 80px 0 0;}
+.wireframes .bx_left{
+  border-left: 5px solid #fff;
+	width:32%;
+  border-radius: 5px;
+	margin: 50px 0px 0px 70px;
+}
+.wireframes .bx_left p{
+  padding: 0px;
+  display: block;
+  margin: 0px;
+}
 .wireframes .bx_right{
 	width:55%;
 	margin:0;}
 .mockups{
-	background:#dcdcdd;}
+	background:#fff;}
 .wireframes .label-title{
 	background:rgba(0, 0, 0, .5);
 	}
+#slider2{
+  margin: 65px 0px 10px 0px;
+}
+#slider2.flexslider{
+  top: -85px;
+}
+#slider2:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+#slider2 .slides .bx_right{
+  
+   height: 450px;
+ }
 .bx_center{
 	max-width:700px;
 	margin:auto;
@@ -753,6 +800,20 @@ h5.blocbox-link {
   font-size: 30px;
 }
 
+.flex-direction-nav{
+  
+}
+#slider3{
+  margin: 50px 0px 10px 0px;
+}
+#slider3.flexslider{
+  top: -55px;
+}
+#carousel3 .flex-viewport .slides li img{
+  position: relative;
+  top: 150px;
+  display: block;
+}
 /**Carousal**/
 
 /* Reset Styles
@@ -776,10 +837,10 @@ h5.blocbox-link {
  * Webfont: Geogrotesque SemiBold
  * URL: http://new.myfonts.com/fonts/emtype/geogrotesque/semibold/
  * Foundry: Emtype Foundry
- * Copyright: Copyright © 2009 by Eduardo Manso. All rights reserved.
+ * Copyright: Copyright Â© 2009 by Eduardo Manso. All rights reserved.
  * Licensed pageviews: 10,000,000/month
  * 
- * © 2011 Bitstream Inc
+ * Â© 2011 Bitstream Inc
 */
 
 /* GEO - Semibold */
@@ -820,17 +881,16 @@ body {
 .bx_left {
     float: left;
     margin: 0;
-    padding: 0 25px 0 55px;
+    padding:45px 0 0 55px;
     width: 55%;
 }
 .bx_left img{
   
 }
 .bx_right {
-    border-left: 5px solid hsl(0, 0%, 0%);
     float: left;
     margin: 30px 0 0;
-    padding: 0 0 0 15px;
+    padding: 0 0 4em 15px;
     width: 32%;
 }
 #carousel1{
@@ -839,14 +899,14 @@ body {
   overflow:hidden;
   padding: 0 48px 0 48px;
   margin-top: -4em;
-  height: 200px;
+  height: 110px;
 }
 #carousel2 {
   background: hsl(0,1%,30%) none repeat scroll 0 0;
   overflow: hidden;
   padding: 0 48px;
   margin-top: -4em;
-  height: 200px;
+  height: 110px;
 }
 #carousel3 {
     background: hsl(0, 1%, 30%) none repeat scroll 0 0;
@@ -894,15 +954,20 @@ body .flex-direction-nav .flex-disabled{
    z-index: 0;
 }
 ul.flex-direction-nav .flex-prev{
+  background: url(../images/icons/nev-left.png) no-repeat;
+  background-size: 20px;
   left:15px;
   opacity:1 !important;
 }
 ul.flex-direction-nav .flex-next{
+  background: url(../images/icons/nev-right.png) no-repeat;
+  background-size: 20px;
   right:15px;
+  width: 20px;
   opacity:1 !important;
 }
 #slider.flexslider {
-    margin: 50px 0 10px 0;
+  margin: 50px 0 10px 0;
   max-height:350px;
 }
 body .flex-direction-nav a::before {
@@ -938,7 +1003,7 @@ body .flex-control-paging li a {
     text-align: center;
     width: -moz-fit-content;
   font-family: sans-serif;
-  margin:-4em 40px 0 0;
+  margin:-5em 40px 0 0;
 }
 .thumb_button span {
     display: block;
@@ -1047,7 +1112,7 @@ font-style: normal}
   display: block;
 }
 #slider1 .slides img {
-  width: 30%;
+  width: 35%;
   display: block;
 }
 #slider2 .slides img {
@@ -1139,12 +1204,12 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
-  content: '\f001';
+
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  
 }
 .flex-direction-nav .flex-prev {
   l/*eft: -50px;*/
@@ -1158,6 +1223,9 @@ html[xmlns] .flexslider .slides {
   left: 10px;
 }
 .flexslider:hover .flex-direction-nav .flex-prev:hover {
+  background: url(../images/icons/nev-left-blue.png) no-repeat;
+  background-size: 20px;
+  cursor: pointer;
   opacity: 1;
 }
 .flexslider:hover .flex-direction-nav .flex-next {
@@ -1166,6 +1234,9 @@ html[xmlns] .flexslider .slides {
 }
 .flexslider:hover .flex-direction-nav .flex-next:hover {
   opacity: 1;
+  right: 10px;
+  background: url(../images/icons/nev-right-blue.png) no-repeat;
+  background-size: 20px;  
 }
 .flex-direction-nav .flex-disabled {
   opacity: 0!important;

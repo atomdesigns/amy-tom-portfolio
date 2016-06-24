@@ -654,7 +654,7 @@ h5.blocbox-link {
 .wireframes .thumb_button{
 	float:left;
 	background: rgba(243, 182, 182, 0.5);
-	margin: -83px 0 0 40px;}
+	margin: -73px 0 0 40px;}
   .sketches .label-title{
 	background:#6c6a6a;
 	}
@@ -981,7 +981,7 @@ body .flex-control-paging li a {
     text-align: center;
     width: -moz-fit-content;
     font-family: sans-serif;
-    margin:-4em 40px 0 0;
+    margin:-3.75em 40px 0 0;
 }
 .thumb_button span {
     display: block;

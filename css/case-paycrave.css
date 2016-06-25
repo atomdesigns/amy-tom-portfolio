@@ -6,6 +6,17 @@ body, footer {
   font-family: 'roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+a.filter_btn{
+  position: relative;
+}
+.filter_btn .on {
+    position: absolute;
+    left: -5px;
+    top: 25px;
+    width: 194px;
+    height: 31px;
+    background: url(../images/nav-active2.png) no-repeat;
+}
 /* @mediaqueries */
   @media (min-width: 768px) {
    .container, .footer, header, .main, #testimonials {
@@ -609,7 +620,7 @@ figcaption a:link, a:active {
   color: white;
   font-family: 'PT Sans', sans-serif;
   font-size: 20px;
-  margin-left: 38%;
+  margin-left: 12.5em;
   padding: 10px 40px;
   font-weight: 700;
   box-shadow: 1px 1px 20px 5px #1a1a1a;
@@ -629,7 +640,7 @@ figcaption a:link, a:active {
 }
 h5.blocbox-link {
   color: whitesmoke;
-  margin-left: 45%;
+  text-align: center;
 }
 .hero-img {
   margin: 50px;
@@ -674,7 +685,7 @@ h5.blocbox-link {
   margin: 55px 0px 30px 0px;
 }
 #slider1.flexslider{
-  top: 0px;
+  top: -60px;
 }
 #slider1:after{
   content: '';
@@ -714,7 +725,7 @@ h5.blocbox-link {
 }
 .wireframes p,
 .mockups p{
-	font-family: 'roboto condensed';}
+	font-family:open sans;}
 .wireframes .bx_left{
 	width:32%;
 	margin: 80px 0 0;}
@@ -749,8 +760,8 @@ h5.blocbox-link {
   clear: both;
 }
 #slider2 .slides .bx_right{
-  
-   height: 450px;
+  border-left: 5px solid;
+   border-radius: 5px;
  }
 .bx_center{
 	max-width:700px;
@@ -881,7 +892,7 @@ body {
 .bx_left {
     float: left;
     margin: 0;
-    padding:45px 0 0 55px;
+    padding: 0 25px 0 55px;
     width: 55%;
 }
 .bx_left img{
@@ -890,7 +901,7 @@ body {
 .bx_right {
     float: left;
     margin: 30px 0 0;
-    padding: 0 0 4em 15px;
+    padding: 0 0 0 15px;
     width: 32%;
 }
 #carousel1{
@@ -899,14 +910,14 @@ body {
   overflow:hidden;
   padding: 0 48px 0 48px;
   margin-top: -4em;
-  height: 110px;
+  height: 200px;
 }
 #carousel2 {
   background: hsl(0,1%,30%) none repeat scroll 0 0;
   overflow: hidden;
   padding: 0 48px;
   margin-top: -4em;
-  height: 110px;
+  height: 200px;
 }
 #carousel3 {
     background: hsl(0, 1%, 30%) none repeat scroll 0 0;
@@ -1003,7 +1014,7 @@ body .flex-control-paging li a {
     text-align: center;
     width: -moz-fit-content;
   font-family: sans-serif;
-  margin:-5em 40px 0 0;
+  margin:-4em 40px 0 0;
 }
 .thumb_button span {
     display: block;
@@ -1112,7 +1123,7 @@ font-style: normal}
   display: block;
 }
 #slider1 .slides img {
-  width: 35%;
+  width: 30%;
   display: block;
 }
 #slider2 .slides img {

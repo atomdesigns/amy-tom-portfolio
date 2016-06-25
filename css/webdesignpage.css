@@ -6,6 +6,17 @@ body, footer {
   font-family: 'roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+a.filter_btn{
+  position: relative;
+}
+.filter_btn .on {
+    position: absolute;
+    left: -5px;
+    top: 25px;
+    width: 194px;
+    height: 31px;
+    background: url(../images/nav-active2.png) no-repeat;
+}
 /* @mediaqueries */
   @media (min-width: 768px) {
    .container, .footer, header, .main, #testimonials {

@@ -5,6 +5,17 @@ text-align: center;
 body {
 background-color: #FAFAFA;
 }
+a.filter_btn{
+  position: relative;
+}
+.filter_btn .on {
+    position: absolute;
+    left: -5px;
+    top: 25px;
+    width: 194px;
+    height: 31px;
+    background: url(../images/nav-active3.png) no-repeat;
+}
 p,
 .descriptions {
 font-family: 'oswald', serif;

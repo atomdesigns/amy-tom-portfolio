@@ -496,7 +496,7 @@ figure img{
           transition: all 0.5s linear;
   -webkit-transform: scale3d(1, 1, 1);
           transform: scale3d(1, 1, 1);
-  width: 115%;
+  width: 100%;
 }
 
 figure:hover figcaption{

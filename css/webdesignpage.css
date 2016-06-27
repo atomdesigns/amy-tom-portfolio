@@ -6,17 +6,6 @@ body, footer {
   font-family: 'roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-a.filter_btn{
-  position: relative;
-}
-.filter_btn .on {
-    position: absolute;
-    left: -5px;
-    top: 25px;
-    width: 194px;
-    height: 31px;
-    background: url(../images/nav-active2.png) no-repeat;
-}
 /* @mediaqueries */
   @media (min-width: 768px) {
    .container, .footer, header, .main, #testimonials {
@@ -496,7 +485,7 @@ figure img{
           transition: all 0.5s linear;
   -webkit-transform: scale3d(1, 1, 1);
           transform: scale3d(1, 1, 1);
-  width: 100%;
+  width: 115%;
 }
 
 figure:hover figcaption{

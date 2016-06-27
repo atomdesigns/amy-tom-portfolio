@@ -9,7 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
   	<!-- flex CSS --> 
@@ -18,6 +18,7 @@
 	<!-- Modernizr -->
   	<script src="js/modernizr.js"></script>
   <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/case-paycrave.css">
   
 	<title>Amy Tom &#124; Case Study: PayCrave</title>
@@ -25,40 +26,76 @@
 </head>
 
 <body class="loading">
-  <div class="navigation">
-      <ul class="links">
-        <li id="home"><a href="index.html">HI, I'M AMY</a></li>
-        <li><a href="webdesignpage.html" class="filter_btn">UX UI Design <span class="on"></span></a></li>
-        <li><a href="graphicdesign.html">Visual Design</a></li>
-        <li><a href="illustrations.html">Illustrations</a></li>
-        <li><a href="contactme.html">Contact Me</a></li>
-      </ul>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a  id="home" href="index.html" style="margin-left: 35px;">HI, I'M AMY</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a id="nav-1" href="webdesignpage.html" class="filter_btn">UX UI Design <span class="on"></span></a></li>
+          <li><a id="nav-2" href="graphicdesign.html">Visual Design</a></li>
+          <li><a id="nav-3"href="illustrations.html">Illustrations</a></li>
+          <li><a id="nav-4" href="contactme.html">Contact Me</a></li>
+        </ul>
+      </div>
     </div>
-    <section class="web-header">
-    	<div class="hero">
-    		<h1 id="page-title"><strong>Case</strong> Studies</h1>
+  </nav>
+
+
+  <div class="container-fluid">
+      <section class="web-header">
+      <div class="row">
+      	<div class="hero">
+      		<h1 id="page-title"><strong>Case</strong> Studies</h1>
+        </div>
       </div>
-    		<div class="left-container">
-           <img class="hero-img" src="images/paycrave-imgs/paycrave-food-menu.jpg" alt="Blocbox Homepage"/>
-        </div>
-        <div class="right-container">
-          <h1 id="project-title">Paycrave Project</h1>
-          <p class="project-description">PayCrave is a mobile app that lets users locate a food truck near them and make an easy, fast online order before they even arrive! It is an innovation to the mobile world of apps to help users fulfill their orders without having to wait in line. It also lets users track orders, see the food menus and read feedbacks from others.
-</p>
-          <btn id="blocbox-btn"><a href="https://invis.io/KB5RAO6M5" target="_blank">VIEW DEMO APP</a></btn>
-          <h5 class="blocbox-link">VIA INVISION APP</h5>
-        </div>
-    </section>
+      <div class="row">
+      <div class="col-sm-6">
+      		<div class="left-container">
+             <img class="hero-img img-responsive" src="images/paycrave-imgs/paycrave-food-menu.jpg" alt="Blocbox Homepage"/>
+          </div>
+      </div>
+      <div class="col-sm-6">
+          <div class="right-container">
+            <h1 id="project-title">Paycrave Project</h1>
+            <p class="project-description">PayCrave is a mobile app that lets users locate a food truck near them and make an easy, fast online order before they even arrive! It is an innovation to the mobile world of apps to help users fulfill their orders without having to wait in line. It also lets users track orders, see the food menus and read feedbacks from others.</p>
+            <btn id="blocbox-btn"><a href="https://invis.io/KB5RAO6M5" target="_blank">VIEW DEMO APP</a></btn>
+            <h5 class="blocbox-link">VIA INVISION APP</h5>
+          </div>
+      </div>
+      </div>
+      </section>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="container-fluid">
     <section id="summary">
-      <div class="label-title">
-      <h1>Main Goal</h1></div>
-      <div class="summary-img"><img src="images/paycrave-imgs/paycrave-signup.jpg" alt="Blocbox Dashboard for Returning Users"/>
+      <div class="row">
+        <div class="label-title">
+            <h1>Main Goal</h1>
+        </div>
       </div>
-      <div class="summary-description">
-        <p>My client had a naive idea about a GPS for food trucks but he did not just a GPS for locating food trucks, he wanted clients and users to have an easy transaction, view food menus, follow on the news and updates, view food ratings from other users, and be able to track their previous orders with ease. One of the most importance is the ease and saves time on orders. It all came down to play when they decided to let me help them with this intriguing project. I had never done anything like this and I was super excited to help them with their UX and UI Mobile App Design.
-</p>
+      <div class="row">
+        <div class="col-sm-12">
+        <div class="summary-img">
+          <img class="img-responsive" src="images/paycrave-imgs/paycrave-signup.jpg" alt="Blocbox Dashboard for Returning Users"/>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="summary-description">
+            <p class="text-justify">My client had an innovative idea about a GPS for food trucks but he did not just a GPS for locating food trucks, he wanted clients and users to have an easy transaction, view food menus, follow on the news and updates, view food ratings from other users, and be able to track their previous orders with ease. One of the most importance is the ease and saves time on orders. It all came down to play when they decided to let me help them with this intriguing project. I had never done anything like this and I was super excited to help them with their UX and UI Mobile App Design.</p>
+          </div>
+        </div>
       </div>
     </section>
+    </div>
     <section id="summary" class="sketches">
 		<div class="label-title">
 			<h1>Sketches</h1>
@@ -115,7 +152,7 @@
     </section>
     <section id="user-research">
       <div class="label-title">
-      <h1>User Stories</h1></div>
+      <h1>User Research</h1></div>
       <div class="research-img">
       <ul>
         <li><img src="images/research-imgs/paycrave-userstories.jpg" alt="Blocbox Survey Responses"/></li>
@@ -124,18 +161,24 @@
         
       </div>
       <div class="research-description">
-        <p>Collecting research information for PayCrave was exciting as the data results came in with Competitive Analysis for both very popular mobile apps on the market for food delivery services widely used today, Foodler and Grubhub. I also created user stories based upon the respondings of users. Both apps have transaction fees and order minimum that requires users to meet. Both apps, for competitve analysis, have good ratings for their services because it resolves most of the key features from the user stories. And this gives PayCrave an advantage to seek other features that Foodler and Grubhub lacks. Beverage-only orders and food truck locating.</p>
+        <p class="text-justify">Collecting research information for PayCrave was exciting as the data results came in with Competitive Analysis for both very popular mobile apps on the market for food delivery services widely used today, Foodler and Grubhub. I also created user stories based upon the respondings of users. Both apps have transaction fees and order minimum that requires users to meet. Both apps, for competitve analysis, have good ratings for their services because it resolves most of the key features from the user stories. And this gives PayCrave an advantage to seek other features that Foodler and Grubhub lacks. Beverage-only orders and food truck locating.</p>
       </div>
+      <div class="row">
       <div class="center-title">
       <h1>Design Decisions</h1>
+      </div>
+      </div>
+      <div class="row">
       <div class="decisions-img">
       <ul>
-        <li><img src="images/decisions-img/Paycrave_color_palettes_fonts.jpg" alt="Blocbox Color Palette"/></li>
-        <li><img src="images/decisions-img/paycrave-user-flow.jpg" alt="Blocbox Type Fonts"/></li>
-        <li><img src="images/decisions-img/paycrave-userflow-signup.jpg" alt="User Flow"/></li>
+        <li><img class="img-responsive" src="images/decisions-img/Paycrave_color_palettes_fonts.jpg" alt="Blocbox Color Palette"/></li>
+        <li><img class="img-responsive" src="images/decisions-img/paycrave-user-flow.jpg" alt="Blocbox Type Fonts"/></li>
+        <li><img class="img-responsive" src="images/decisions-img/paycrave-userflow-signup.jpg" alt="User Flow"/></li>
       </ul>
       </div>
       </div>
+      </div> 
+    <div class="container-fluid">
     </section>
     <section id="summary" class="wireframes">
 		<div class="label-title">
@@ -229,7 +272,7 @@
                         <p><strong>Keeping in mind that this is for mobiles, I made sure that each design is consistant and architecturally informative. </strong></p>      	   		 
                     </div>
                     <div class="bx_right">
-						<img src="images/wireframes/paycrave/paycrave-submitratings-wireframe-02.jpg" />
+						          <img src="images/wireframes/paycrave/paycrave-submitratings-wireframe-02.jpg" />
                     </div>
                     <div class="clear"></div>
   	    		</li>
@@ -244,7 +287,8 @@
             </li>
                          
 			</ul>
-        </div>
+        </div>  
+          
         
         <div class="thumb_button">
         	<btn id="prototype-btn" target="_blank"><a href="https://marvelapp.com/24bb4gh">LINK TO WIREFRAME PROTOTYPE</a></btn>
@@ -273,7 +317,7 @@
   	    	    <img src="images/wireframes/paycrave/paycrave-purchaseandorder-wireframes-01.png" />
   	    	</li>
   	    	<li>
-  	    	    <img src="images/wireframes/paycrave/paycrave-select-food-wireframe-01.jpg"" />
+  	    	    <img src="images/wireframes/paycrave/paycrave-select-food-wireframe-01.jpg" />
   	    	</li>
   	    	<li>
   	    	    <img src="images/wireframes/paycrave/paycrave-submitratings-wireframe-01.jpg" />
@@ -288,7 +332,7 @@
 			</ul>         
         </div>
     </section>
-
+  </div>
     <section id="summary" class="mockups">
       <div class="label-title">
       <h1>Mockups</h1></div>
@@ -609,30 +653,45 @@
           </ul>         
         </div>
     </section>
-
+  <div class="container-fluid">
      <section id="summary" class="user-testing">
-      <div class="label-title">
-      <h1>User Testing</h1></div>
+     <div class="row">
+      <div class="label-title"><h1>User Testing</h1></div>
+    </div>
+    <div class="row">
       <div class="user-testing-description">
-        <p class="first-paragraph">With surprising results from remote usability testings, PayCrave had a bit of an icon recognition issues and navigation flows of a particular task, writing feedback on the comment area. The familiar of the pad and pencil silhouette resolved the issue. However, another issue arise...there were too many paths that can lead to rate and write a review. At first, it seems like it will let users choose and give them options, like chance, to lead them to the right path, no matter which way you take. However, sometimes in this case, too many options can cause a downfall. Especially, when our navigation flow only let testers go towards one path out of the many. Because of that, my test results have became not as successful as I had hoped. I have gotten only 60% successful rate.
-</p>
-        <p class="second-paragraph">Before deciding on putting out the next test, I made a simple analysis on eye-tracking. It turns out that they were more likely to click on the More icon than the ratings link under the company&#39;
-s name. So, to conclude the usability testings, the final test was the submission of the order ratings and reviews from customers. </p>
+      <div class="col-sm-12">
+      <div class="first-paragraph">
+        <p class="text-justify">With surprising results from remote usability testings, PayCrave had a bit of an icon recognition issues and navigation flows of a particular task, writing feedback on the comment area. The familiar of the pad and pencil silhouette resolved the issue. However, another issue arise...there were too many paths that can lead to rate and write a review. At first, it seems like it will let users choose and give them options, like chance, to lead them to the right path, no matter which way you take. However, sometimes in this case, too many options can cause a downfall. Especially, when our navigation flow only let testers go towards one path out of the many. Because of that, my test results have became not as successful as I had hoped. I have gotten only 60% successful rate.</p>
+        </div>
       </div>
-    </section>
+      <div class="col-sm-12">
+      <div class="second-paragraph">
+        <p class="text-justify">Before deciding on putting out the next test, I made a simple analysis on eye-tracking. It turns out that they were more likely to click on the More icon than the ratings link under the company&#39; s name. So, to conclude the usability testings, the final test was the submission of the order ratings and reviews from customers. </p>
+      </div>
+      </div>
+      </div>
 
-    <section id="summary" class="conclusion">
-      <div class="label-title">
-      <h1>Conclusion</h1></div>
-      <div class="conclusion-description">
-        <p class="first-paragraph">I learned throughout this project is that mobile app design can be a challenge. It must be usable but simple that people don&#39;
-t have to think. However, there are so many icons out there and most designers, like me, strive to create new innovative, distinguishable icons for each app. I learned that sometimes it is best to stick to the ones users are already familiar with. They don&#39;
-t have to think and they can navigate through their tasks with a breeze. PayCrave was solely designed for users and everything is made simple and recognizable to use. I would&#39;
-ve decide to change the Add More Item (to cart) button during the checkout page a little bit more simpler and not stand out as much. I would use this information in the near future by taking the account of the simplicity of the design and the importance of hierarchy.
-</p>
-        
+    </div>
+    </section>
+</div>
+  <div class="container-fluid">
+  <section id="summary" class="conclusion">
+      <div class="row">
+        <div class="label-title"><h1>Conclusion</h1></div>
+      </div>
+      <div class="row">
+        <div class="conclusion-description">
+        <div class="col-sm-12">
+        <div class="first-paragraph">
+          <p class=" text-justify">I learned throughout this project is that mobile app design can be a challenge. It must be usable but simple that people don&#39; t have to think. However, there are so many icons out there and most designers, like me, strive to create new innovative, distinguishable icons for each app. I learned that sometimes it is best to stick to the ones users are already familiar with. They don&#39;t have to think and they can navigate through their tasks with a breeze. PayCrave was solely designed for users and everything is made simple and recognizable to use. I would&#39;ve decide to change the Add More Item (to cart) button during the checkout page a little bit more simpler and not stand out as much. I would use this information in the near future by taking the account of the simplicity of the design and the importance of hierarchy.</p>
+        </div>
+        </div>
+        </div>
       </div>
     </section>
+  </div>
+  <div class="container-fluid">
      <section id="summary" class="more-case">
 		<div class="label-title">
 			<h1>More Case Studies...</h1>
@@ -640,7 +699,7 @@ ve decide to change the Add More Item (to cart) button during the checkout page 
         <div id="carousel4" class="flexslider">
 			<ul class="slides">
             <li>
-  	    	    <a href="case-blocbox.html"><img src="images/blocbox_dashboard_returningusers_mockup.jpg" /></a>
+  	    	    <a href="case-blocbox.html"><img class="img-responsive" src="images/blocbox_dashboard_returningusers_mockup.jpg" /></a>
                 <h3 class="text-center">Blocbox</h3>
   	    	</li>
   	    	<!--li>
@@ -666,8 +725,7 @@ ve decide to change the Add More Item (to cart) button during the checkout page 
 			</ul>         
         </div>
     </section>
-
-
+  </div>
     <footer class="footer">
     <p class="linkme">Let's Get Connected</p>
     <div class="sociallinks">
@@ -786,5 +844,7 @@ ve decide to change the Add More Item (to cart) button during the checkout page 
   ga('create', 'UA-71195028-2', 'auto');
   ga('send', 'pageview');
 </script>
+<script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

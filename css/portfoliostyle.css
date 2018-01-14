@@ -50,11 +50,7 @@ text-decoration: none;
   display: inline-block;
   margin-right: 5px;
 }
-#separator {
-  text-decoration: none  !important;
-  margin-left: 10px;
-  color: white;
-}
+
 #job-title a:link {
 color: #fff;
 text-decoration: none;
@@ -294,4 +290,9 @@ margin-bottom: 20px;
 .sociallinks i {
   color: white;
   padding-right: 5px;
+}
+#separator {
+  text-decoration: none  !important;
+  margin-left: 10px;
+  color: white;
 }

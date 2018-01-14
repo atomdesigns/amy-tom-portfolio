@@ -28,6 +28,7 @@ box-shadow: 0px 0px 0px #ffffff;
 background-image: url("https://cloud.githubusercontent.com/assets/11380566/15298576/d1121aaa-1b54-11e6-89df-9d1bda5c0938.jpg");
 background-position: center bottom;
 background-attachment: fixed;
+margin-left: -7.52px;
 }
 .masthead-intro{
 margin-bottom: 0.1em;
@@ -45,12 +46,16 @@ margin-top: -110px;
 text-decoration: none;
 }
 #job-title li {
-  text-decoration: underline;
+  text-decoration: none;
   list-style-type: none;
   display: inline-block;
   margin-right: 5px;
 }
-
+#separator {
+  text-decoration: none  !important;
+  margin-left: 10px;
+  color: white;
+}
 #job-title a:link {
 color: #fff;
 text-decoration: none;
